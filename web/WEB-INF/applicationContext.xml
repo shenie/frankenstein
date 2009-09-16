@@ -15,8 +15,8 @@
             <bean class="org.springframework.beans.factory.config.ListFactoryBean">
                 <property name="sourceList">
                     <list>
-                        <value>net/shenie/domain/Article.hbm.xml</value>
-                        <value>net/shenie/domain/Comment.hbm.xml</value>
+                        <value>net/shenie/domain/article.hbm.xml</value>
+                        <value>net/shenie/domain/comment.hbm.xml</value>
                     </list>
                 </property>
             </bean>
