@@ -1,1 +1,10 @@
-An experiment to use rails' actionpack frontend plus java's spring & hibernate backend.
+My rails + java spike experiment to use rails' actionpack frontend plus java's spring & hibernate backend.
+
+Why I wanted to use rails controller & view for my web layer?
+- restful routing
+- form builder
+- dislike jsp, likes haml (or even erb)
+
+Unfortunately
+- route generation and form builder doesn't work with hibernate java domain model
+- annoying with restarts after every change
